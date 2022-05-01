@@ -2,6 +2,7 @@
 # load all the libraries
 # install.packages("package") and then
 # library("package") to simplify how to install a package and use it for your library
+# if you ever quit Rstudio you will need to download the libraries every time 
 library(tidyverse)
 library(ggrepel)
 library(ggimage)
