@@ -12,7 +12,8 @@ library(nflfastR)
 nflreadr::.clear_cache()
 # to start, we can load receiver and running back data for 2017-2021
 # it's structured the same way to evaluate quarterbacks just using receiver_player_name instead
-# receivers includes tight ends
+# receivers includes some tight ends
+# rushers includes some quarterbacks
 # i also want to use the filter() function to only select some of the top receivers
 re_21 <- load_pbp(2021) %>%
   group_by(receiver_player_name) %>%
