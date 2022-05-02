@@ -275,5 +275,5 @@ ru_cor_18 <- cor(ru_18$avg_epa, ru_18$`Win Percentage`, use = "complete.obs")
 ru_cor_17 <- cor(ru_17$avg_epa, ru_17$`Win Percentage`, use = "complete.obs")
 avg_re_cor <- ((re_cor_17+ re_cor_18 + re_cor_19 + re_cor_20 + re_cor_21)/5)
 avg_ru_cor <- ((ru_cor_17 + ru_cor_18 + ru_cor_19 + ru_cor_20 + ru_cor_21)/5)
-# both have relatively small correlations of ~ .3,
+# both have relatively small average correlations of ~ .3,
 # both of which are much lower than Quarterbacks and Defense to Win Percentage
